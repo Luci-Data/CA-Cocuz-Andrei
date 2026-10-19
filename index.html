@@ -45,7 +45,7 @@ footer b{color:var(--tx)}
 .m{padding:8px 12px;border-radius:12px;max-width:85%;font-size:.9rem;background:var(--bg2)}.m.u{align-self:flex-end;background:var(--ac);color:#fff}
 #cf{display:flex;border-top:1px solid var(--bd)}#cf input{border:0;border-radius:0}#cf button{border:0;background:var(--ac);color:#fff;padding:0 16px;font-size:1.1rem;cursor:pointer}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ac);font-weight:800;font-size:1.2rem;line-height:1.2}
-.brand img{height:54px;width:auto;display:block;background:#fff;border-radius:8px;padding:3px}
+.brand img{height:54px;width:auto;display:block}
 nav{display:flex;gap:4px;flex-wrap:wrap}
 nav a{margin:0;padding:8px 12px;border-radius:8px;transition:background .2s}
 nav a:hover{background:var(--bg2)}
@@ -70,7 +70,7 @@ section{padding:44px 5%}h2{font-size:1.5rem;margin-bottom:24px}
 </style>
 </head>
 <body>
-<header><a class="brand" href="#"><img src="logo.png" alt="Logo CA Cocuz Andrei"><span>CA Cocuz Andrei</span></a>
+<header><a class="brand" href="#"><picture><source srcset="logo-dark.png" media="(prefers-color-scheme: dark)"><img src="logo.png" alt="Logo CA Cocuz Andrei"></picture><span>CA Cocuz Andrei</span></a>
 <nav><a href="#about">À propos</a><a href="#services">Services</a><a href="#gallery">Galerie</a><a href="#devis">Devis</a></nav></header>
 
 <div class="hero"><h1>CA Cocuz Andrei — Expert en rénovation intérieure</h1>
